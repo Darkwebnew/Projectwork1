@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🛡️ CyberGuard AI
+# 🛡️ WAF AI
 ### AI-Powered Advanced Web Application Firewall
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
@@ -18,11 +18,11 @@
 
 ## 🌟 Project Overview
 
-**CyberGuard AI** is an intelligent Web Application Firewall (WAF) that leverages cutting-edge machine learning to protect web applications from sophisticated cyber threats. Built as a comprehensive Final Year Project, it seamlessly integrates traditional WAF capabilities with AI-driven threat intelligence to deliver superior, adaptive protection.
+**WAF AI** is an intelligent Web Application Firewall (WAF) that leverages cutting-edge machine learning to protect web applications from sophisticated cyber threats. Built as a comprehensive Final Year Project, it seamlessly integrates traditional WAF capabilities with AI-driven threat intelligence to deliver superior, adaptive protection.
 
-### 🎯 Why CyberGuard AI?
+### 🎯 Why WAF AI?
 
-Traditional firewalls rely on static rules—CyberGuard AI learns, adapts, and evolves with emerging threats, providing proactive defense for modern web applications.
+Traditional firewalls rely on static rules—WAF AI learns, adapts, and evolves with emerging threats, providing proactive defense for modern web applications.
 
 ---
 
@@ -63,15 +63,15 @@ Docker-based containerized deployment enables seamless horizontal scaling and cl
 
 <div align="center">
 
-![CyberGuard AI Architecture](https://user-gen-media-assets.s3.amazonaws.com/seedream_images/56cde672-55dc-420b-b49b-a4aaea78efc6.png)
+![WAF AI Architecture](https://user-gen-media-assets.s3.amazonaws.com/seedream_images/56cde672-55dc-420b-b49b-a4aaea78efc6.png)
 
-*Figure 1: End-to-end CyberGuard AI system architecture showcasing microservices design, ML engine integration, real-time dashboard, and cloud deployment.*
+*Figure 1: End-to-end WAF AI system architecture showcasing microservices design, ML engine integration, real-time dashboard, and cloud deployment.*
 
 </div>
 
 ### 🔧 Core Components
 
-The CyberGuard AI system employs a **microservices architecture** optimized for scalability, reliability, and performance:
+The WAF AI system employs a **microservices architecture** optimized for scalability, reliability, and performance:
 
 | Component | Technology | Purpose |
 |-----------|-----------|----------|
@@ -332,7 +332,7 @@ We welcome contributions! Please see our **[Code of Conduct](CODE_OF_CONDUCT.md)
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for complete details.
 
 ```
-MIT License - Copyright (c) 2024 CyberGuard AI Team
+MIT License - Copyright (c) 2024 WAF AI Team
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
