@@ -1,59 +1,395 @@
-## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+<div align="center">
 
-## About
-<!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+# 🛡️ CyberGuard AI
+### AI-Powered Advanced Web Application Firewall
 
-## Features
-<!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.8+-green.svg)](https://www.python.org/)
+[![Docker](https://img.shields.io/badge/Docker-Ready-blue.svg)](https://www.docker.com/)
+[![AI](https://img.shields.io/badge/AI-TensorFlow%20%7C%20PyTorch-orange.svg)](https://www.tensorflow.org/)
 
-## Requirements
-<!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
+**Enterprise-grade web security powered by advanced machine learning for real-time threat detection and intelligent response.**
 
-## System Architecture
-<!--Embed the system architecture diagram as shown below-->
+[🚀 Quick Start](#-installation) • [📖 Documentation](API.md) • [🎯 Demo](#-demo) • [🤝 Contributing](#-contributing)
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+</div>
 
+---
 
-## Output
+## 🌟 Project Overview
 
-<!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
+**CyberGuard AI** is an intelligent Web Application Firewall (WAF) that leverages cutting-edge machine learning to protect web applications from sophisticated cyber threats. Built as a comprehensive Final Year Project, it seamlessly integrates traditional WAF capabilities with AI-driven threat intelligence to deliver superior, adaptive protection.
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
+### 🎯 Why CyberGuard AI?
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
+Traditional firewalls rely on static rules—CyberGuard AI learns, adapts, and evolves with emerging threats, providing proactive defense for modern web applications.
 
-Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
+---
 
+## ✨ Key Features
 
-## Results and Impact
-<!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
+<table>
+<tr>
+<td width="50%">
 
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
+### 🧠 **AI-Powered Threat Detection**
+Advanced machine learning models identify attack patterns in real-time, adapting to new threat vectors automatically.
 
-## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
+### ⚡ **Real-Time Protection**
+Continuous traffic analysis with sub-millisecond anomaly detection ensures zero-delay response to threats.
 
+### 🤖 **Automated Response**
+Intelligent blocking, rate limiting, and threat mitigation execute automatically without manual intervention.
 
+</td>
+<td width="50%">
 
+### 📊 **Comprehensive Logging**
+Detailed audit trails with ELK Stack integration provide full visibility into security events and system performance.
 
+### ⚖️ **Load Balancing**
+Nginx-based intelligent request distribution ensures high availability and optimal performance under load.
+
+### 🐳 **Scalable Architecture**
+Docker-based containerized deployment enables seamless horizontal scaling and cloud-native operations.
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🏗️ Architecture
+
+<div align="center">
+
+![CyberGuard AI Architecture](https://user-gen-media-assets.s3.amazonaws.com/seedream_images/56cde672-55dc-420b-b49b-a4aaea78efc6.png)
+
+*Figure 1: End-to-end CyberGuard AI system architecture showcasing microservices design, ML engine integration, real-time dashboard, and cloud deployment.*
+
+</div>
+
+### 🔧 Core Components
+
+The CyberGuard AI system employs a **microservices architecture** optimized for scalability, reliability, and performance:
+
+| Component | Technology | Purpose |
+|-----------|-----------|----------|
+| **🌐 Load Balancer** | Nginx | Reverse proxy for intelligent traffic distribution and SSL termination |
+| **🛡️ WAF Processing Nodes** | Python/Flask | Multiple instances providing high availability and request processing |
+| **🧠 ML Engine** | TensorFlow/PyTorch | Real-time threat detection using trained neural network models |
+| **💾 Database Layer** | MongoDB + Redis | Data persistence, caching, and session management |
+| **📈 Monitoring & Analytics** | ELK Stack + Grafana | Real-time dashboards, alerting, and performance metrics |
+| **🔌 API Gateway** | FastAPI | RESTful APIs for configuration, management, and integrations |
+| **🐳 Container Orchestration** | Docker Compose | Service orchestration and deployment automation |
+
+### 🔄 Request Flow
+
+1. **Client Request** → Load Balancer receives incoming traffic
+2. **Traffic Analysis** → WAF node inspects request headers, payload, and patterns
+3. **ML Processing** → Machine learning engine evaluates threat probability
+4. **Decision Engine** → Automated allow/block/challenge decision
+5. **Response** → Protected application receives clean traffic only
+6. **Logging** → All events logged for analytics and compliance
+
+---
+
+## 🚀 Installation
+
+### 📋 Prerequisites
+
+Before installation, ensure your system meets these requirements:
+
+```bash
+✓ Python 3.8 or higher
+✓ Docker & Docker Compose
+✓ Git
+✓ 4GB+ RAM (8GB recommended)
+✓ 10GB+ disk space
+```
+
+### 🔧 Setup Steps
+
+#### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/Darkwebnew/CyberGuard-AI.git
+cd CyberGuard-AI
+```
+
+#### 2️⃣ Configure Environment
+
+```bash
+# Copy environment template
+cp .env.example .env
+
+# Edit configuration (set API keys, database credentials, etc.)
+nano .env
+```
+
+#### 3️⃣ Install Dependencies
+
+```bash
+# Create virtual environment
+python3 -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Install required packages
+pip install -r requirements.txt
+```
+
+#### 4️⃣ Initialize Database
+
+```bash
+# Run database migrations
+python scripts/init_db.py
+
+# Load ML models
+python scripts/load_models.py
+```
+
+#### 5️⃣ Launch Services
+
+**Option A: Docker Deployment (Recommended)**
+
+```bash
+# Build and start all services
+docker-compose up -d
+
+# Verify services are running
+docker-compose ps
+```
+
+**Option B: Manual Deployment**
+
+```bash
+# Start the WAF server
+python run_server.py
+
+# In separate terminals:
+python src/ml_engine.py    # ML processing
+python src/monitor.py       # Monitoring dashboard
+```
+
+#### 6️⃣ Verify Installation
+
+```bash
+# Check system health
+curl http://localhost:8080/health
+
+# Access dashboard
+Open browser: http://localhost:3000
+```
+
+### 🎯 Quick Start Script
+
+```bash
+# Automated setup (Linux/macOS)
+chmod +x setup.sh
+./setup.sh
+```
+
+---
+
+## 🎬 Demo
+
+### 💻 Sample Commands
+
+**Test WAF Protection:**
+
+```bash
+# Normal request (should pass)
+curl http://localhost:8080/api/test
+
+# SQL injection attempt (should block)
+curl "http://localhost:8080/api/test?id=1' OR '1'='1"
+
+# XSS attempt (should block)
+curl "http://localhost:8080/api/test?input=<script>alert('XSS')</script>"
+```
+
+**View Real-Time Analytics:**
+
+```bash
+# Access monitoring dashboard
+open http://localhost:3000/dashboard
+
+# View threat logs
+curl http://localhost:8080/api/logs/threats
+```
+
+### 📸 Screenshots
+
+<div align="center">
+
+| Dashboard | Threat Detection | Analytics |
+|-----------|-----------------|----------|
+| ![Dashboard](https://github.com/Darkwebnew/CyberGuard-AI/blob/main/screenshot/04aca83db9e8432d8c7b484159382216.jpg) | ![Detection](https://github.com/Darkwebnew/CyberGuard-AI/blob/main/screenshot/a0111aa79d404077ae98925567a1c8cc.jpg) | ![Analytics](https://github.com/Darkwebnew/CyberGuard-AI/blob/main/screenshot/WhatsApp%20Image%202025-10-29%20at%2023.17.18_e04ecad6.jpg) |
+| Real-time security monitoring | ML-powered threat identification | Comprehensive attack analytics |
+
+</div>
+
+> **Note:** Screenshots are located in the `/screenshot` directory. View them [here](screenshot/).
+
+---
+
+## 📂 Project Structure
+
+```plaintext
+CyberGuard-AI/
+│
+├── 📁 config/                  # Configuration files
+│   ├── waf.yml                # WAF rules and policies
+│   ├── ml_models.json         # ML model configurations
+│   └── nginx.conf             # Load balancer settings
+│
+├── 📁 docker/                  # Docker configurations
+│   ├── Dockerfile.waf         # WAF container
+│   └── Dockerfile.ml          # ML engine container
+│
+├── 📁 models/                  # Pre-trained ML models
+│   ├── threat_detector.h5     # Neural network model
+│   └── anomaly_detector.pkl   # Anomaly detection model
+│
+├── 📁 screenshot/              # Application screenshots
+│   ├── dashboard.png          # Main dashboard
+│   ├── detection.png          # Threat detection view
+│   └── analytics.png          # Analytics interface
+│
+├── 📁 scripts/                 # Utility scripts
+│   ├── init_db.py            # Database initialization
+│   ├── load_models.py        # Model loader
+│   └── train_model.py        # ML training pipeline
+│
+├── 📁 src/                     # Source code
+│   ├── api/                  # API endpoints
+│   ├── core/                 # Core WAF logic
+│   ├── ml/                   # Machine learning modules
+│   ├── monitoring/           # Monitoring and logging
+│   └── utils/                # Helper functions
+│
+├── 📁 tests/                   # Test suites
+│   ├── test_api.py           # API tests
+│   ├── test_ml.py            # ML model tests
+│   └── test_integration.py   # Integration tests
+│
+├── 📄 .env.example             # Environment template
+├── 📄 docker-compose.yml       # Docker orchestration
+├── 📄 requirements.txt         # Python dependencies
+├── 📄 run_server.py            # Main application entry
+├── 📄 setup.sh                 # Automated setup script
+├── 📄 API.md                   # API documentation
+├── 📄 LICENSE                  # MIT License
+└── 📄 README.md                # This file
+```
+
+---
+
+## 🧪 Testing
+
+### Run Test Suite
+
+```bash
+# Run all tests
+pytest tests/ -v
+
+# Run specific test categories
+pytest tests/test_api.py          # API tests
+pytest tests/test_ml.py           # ML tests
+pytest tests/test_integration.py  # Integration tests
+
+# Generate coverage report
+pytest --cov=src --cov-report=html
+```
+
+---
+
+## 📚 Documentation
+
+- **[API Documentation](API.md)** - Complete API reference
+- **[Quick Start Guide](QUICKSTART.md)** - Get started in 5 minutes
+- **[Configuration Guide](config/README.md)** - Detailed configuration options
+- **[ML Model Training](models/README.md)** - Train custom models
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions! Please see our **[Code of Conduct](CODE_OF_CONDUCT.md)** for guidelines.
+
+### How to Contribute:
+
+1. **Fork** the repository
+2. **Create** a feature branch: `git checkout -b feature/AmazingFeature`
+3. **Commit** your changes: `git commit -m 'Add AmazingFeature'`
+4. **Push** to the branch: `git push origin feature/AmazingFeature`
+5. **Open** a Pull Request
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for complete details.
+
+```
+MIT License - Copyright (c) 2024 CyberGuard AI Team
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software.
+```
+
+---
+
+## 👥 Team
+
+| Avatar | Name | Role | GitHub |
+|--------|------|------|--------|
+| <img src="https://avatars.githubusercontent.com/u/143114486?v=4" width="80" height="80" style="border-radius: 50%;"> | **Sriram V** | Project Lead & Developer | [![GitHub](https://img.shields.io/badge/GitHub-Profile-black?logo=github)](https://github.com/darkwebnew) |
+| <img src="https://avatars.githubusercontent.com/u/133313653?v=4" width="80" height="80" style="border-radius: 50%;"> | **Surothaaman R** | Contributor | [![GitHub](https://img.shields.io/badge/GitHub-Profile-black?logo=github)](https://github.com/surothaaman) |
+| <img src="https://avatars.githubusercontent.com/u/118916413?v=4" width="80" height="80" style="border-radius: 50%;"> | **Pavithra M** | Contributor | [![GitHub](https://img.shields.io/badge/GitHub-Profile-black?logo=github)](https://github.com/22008686) |
+
+---
+
+## 🙏 Acknowledgments
+
+<div align="center">
+
+### Special Thanks
+
+**🎓 Academic Guidance**  
+Ms.V.Swedha, Project Supervisor  
+Saveetha Engineering College
+
+**🔬 Research Foundations**  
+Built upon research in adversarial ML, OWASP Top 10, and modern WAF architectures
+
+**🛠️ Open Source Technologies**  
+TensorFlow • PyTorch • Flask • Docker • Nginx • MongoDB • Redis • ELK Stack
+
+**👥 Community**  
+Thanks to all contributors and the cybersecurity research community
+
+</div>
+
+---
+
+## 📞 Contact & Support
+
+<div align="center">
+
+**Project Maintainer:** [Darkwebnew](https://github.com/Darkwebnew)
+
+**Issues:** [Report a bug or request a feature](https://github.com/Darkwebnew/CyberGuard-AI/issues)
+
+**Discussions:** [Join the community discussion](https://github.com/Darkwebnew/CyberGuard-AI/discussions)
+
+---
+
+### ⭐ Star this repository if you find it useful!
+
+**Made with ❤️ for the cybersecurity community**
+
+</div>
