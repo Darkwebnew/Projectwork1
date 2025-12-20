@@ -46,77 +46,10 @@
 ## 🏗️ Architecture
 
 <div align="center">
-
-```mermaid
-graph TB
-    subgraph "Traffic Sources"
-        N1[Nginx Node 1]
-        N2[Nginx Node 2]
-        N3[Nginx Node N...]
-    end
-    
-    subgraph "WAF AI Core"
-        TC[Traffic Collector]
-        ML[ML Engine]
-        RG[Rule Generator]
-        API[FastAPI Server]
-    end
-    
-    subgraph "Management Interface"
-        CP[Control Panel]
-    end
-    
-    subgraph "Storage & Cache"
-        R[(Redis)]
-        M[(Models)]
-    end
-    
-    subgraph "Monitoring Stack"
-        P[Prometheus]
-        G[Grafana]
-        L[Loki]
-    end
-    
-    subgraph "Deployment"
-        NM[Nginx Manager]
-        SSH[SSH/API Deploy]
-    end
-    
-    N1 --> TC
-    N2 --> TC
-    N3 --> TC
-    
-    TC --> ML
-    ML --> RG
-    RG --> NM
-    NM --> SSH
-    SSH --> N1
-    SSH --> N2
-    SSH --> N3
-    
-    API <--> TC
-    API <--> ML
-    API <--> RG
-    API <--> NM
-    
-    CP --> API
-    CP --> G
-    CP --> P
-    
-    ML <--> R
-    ML <--> M
-    
-    API --> P
-    P --> G
-    TC --> L
-    
-    style ML fill:#e1f5fe
-    style API fill:#f3e5f5
-    style RG fill:#e8f5e8
-    style TC fill:#fff3e0
-    style CP fill:#f3e5f5
-```
-
+  <img src="https://github.com/user-attachments/assets/61a8805f-f291-4b49-9d7c-0eefd06ce583" 
+       alt="AI-Powered WAF Architecture" 
+       width="1536" 
+       height="1024">
 </div>
 
 ### 🧩 System Components
