@@ -51,7 +51,7 @@ Traditional firewalls rely on static, manually maintained rules that cannot adap
 
 <div align="center">
 
-![WAF AI Architecture](screenshot/Architecture%20Diagram.png)
+![WAF AI Architecture](screenshot/architecture-diagram.png)
 
 *End-to-end system architecture: traffic ingestion → ML analysis → rule generation → nginx deployment*
 
