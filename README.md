@@ -788,9 +788,11 @@ WAF_AI_NGINX_RELOAD=sudo systemctl reload nginx  # Nginx reload command
 </details>
 
 <details>
+
 ### 📄 Configuration Files
 
 <details>
+  
 <summary><b>🔧 Main Configuration</b> (<code>config/waf_ai_config.json</code>)</summary>
 
 ```json
