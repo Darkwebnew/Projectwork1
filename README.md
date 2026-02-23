@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=WAF%20AI&fontSize=80&fontColor=fff&animation=twinkling&fontAlignY=35&desc=AI-Powered%20Advanced%20Web%20Application%20Firewall&descAlignY=55&descSize=18" width="100%"/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=00D4FF&center=true&vCenter=true&multiline=true&width=800&height=60&lines=Real-Time+Threat+Detection+%7C+Auto+Rule+Deployment+%7C+ML-Powered+Security)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=00D4FF&center=true&vCenter=true&multiline=true&width=1200&height=60&lines=Real-Time+Threat+Detection+%7C+Auto+Rule+Deployment+%7C+ML-Powered+Security)](https://git.io/typing-svg)
 
 <br/>
 
