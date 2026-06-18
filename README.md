@@ -715,22 +715,35 @@ Please read [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) before contributing.
 
 <div align="center">
 
-**If WAF AI helped you, your institution, or your organization — consider supporting continued development!**
+**If WAF AI helped your cybersecurity research, security engineering projects, academic studies, machine learning experiments, infrastructure protection initiatives, or enterprise security deployments — consider supporting continued development!**
 
 <br/>
 
-<a href="https://www.buymeacoffee.com/sriramnvks" target="_blank">
-<img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-%23FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" height="50"/>
+<a href="https://buymeachai.ezee.li/Harish_Ammu">
+<img src="https://img.shields.io/badge/🇮🇳_Buy_Me_A_Chai-FF6B35?style=for-the-badge" height="50"/>
+</a>
+
+<a href="https://buymeacoffee.com/sriramnvks">
+<img src="https://img.shields.io/badge/☕_Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" height="50"/>
 </a>
 
 <br/><br/>
 
-*Your support helps maintain this project, publish more IEEE research, and build better security tools for the community.*
+<a href="https://github.com/sponsors/darkwebnew">
+<img src="https://img.shields.io/badge/GitHub_Sponsors-EA4AAA?style=for-the-badge&logo=github-sponsors&logoColor=white" height="50"/>
+</a>
+
+<a href="https://paypal.me/sriramnvks">
+<img src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" height="50"/>
+</a>
+
+<br/><br/>
+
+*Your support helps fund open-source cybersecurity research, AI-powered threat detection systems, machine learning security innovations, web application firewall development, security education initiatives, infrastructure protection tools, and advanced defensive technologies for developers, researchers, students, and organizations worldwide.*
 
 <br/>
 
-[![GitHub Sponsors](https://img.shields.io/badge/Sponsor%20on%20GitHub-%23EA4AAA?style=for-the-badge&logo=github-sponsors&logoColor=white)](https://github.com/sponsors/darkwebnew)
-[![PayPal](https://img.shields.io/badge/Donate%20via%20PayPal-%2300457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/sriramnvks)
+🛡️ **Every contribution helps build a safer, smarter, and more secure digital world.**
 
 </div>
 
